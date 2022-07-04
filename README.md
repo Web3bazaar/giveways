@@ -1,4 +1,4 @@
-# Raffle Tickets for Collab Giveways
+# Raffle Tickets for Collab Giveaways
 > Coming soon...
 - Raffle ticket smart contracts
 - Ticket owners snapshots
