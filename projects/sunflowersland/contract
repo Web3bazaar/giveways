@@ -3,7 +3,7 @@
     "description":"Web3 Bazaar giveways tickets for sun flowers land",
     "image":"https://raw.githubusercontent.com/Web3bazaar/api-metadata/master/static/banner/erc721.png",
     "banner":"https://1060363975-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FIWGEodCG0c07OUY9iW9t%2Fuploads%2FhVMa20i2ABVnYUZJPMAL%2Fdqcw.png?alt=media&token=2f8c8510-9d64-4185-a3d1-b3110b1f8235",
-    "banner_url":"https://1060363975-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FIWGEodCG0c07OUY9iW9t%2Fuploads%2FhVMa20i2ABVnYUZJPMAL%2Fdqcw.png?alt=media&token=2f8c8510-9d64-4185-a3d1-b3110b1f8235",
+    "banner_url":"https://raw.githubusercontent.com/Web3bazaar/api-metadata/master/static/banner/erc721.png",
     "external_link":"https://web3bazaar.org/",
     "seller_fee_basis_points":15,
     "fee_recipient":"0xA7Cc2E2050A607c813437C1c074f82322Cc0C8aE"
