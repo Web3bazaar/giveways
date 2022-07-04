@@ -4,8 +4,8 @@
 let template = 
 {
     id: '',
-    name : "NFT #",
-    description :"giveway ticket from web3bazaar for sunflowers land ",
+    name : "SLF Raffle Ticket #",
+    description :"Testnet giveaway raflle tickets - SFL",
     externalURL: "https://raw.githubusercontent.com/Web3bazaar/giveways/main/projects/sunflowersland/data/",
     image: "https://raw.githubusercontent.com/Web3bazaar/giveways/main/projects/sunflowersland/assets/sfl-w3b-opensea.png"
  }
@@ -15,7 +15,10 @@ let template =
 
 let fs = require('fs');
 
-for (let index = 6; index <= 100; index++) {
+let startIndex = 10204//6;
+let lastIndex = 50000;
+
+for (let index = startIndex; index <= lastIndex; index++) {
     
     let data = JSON.parse( JSON.stringify(template))
     data.id = index;
