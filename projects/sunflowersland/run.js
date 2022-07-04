@@ -13,10 +13,10 @@ let template =
 
  let writePath = './data'
 
-let fs = require('fs');
+ const fs = require('graceful-fs');
 
-let startIndex = 20403//6;
-let lastIndex = 50000;
+let startIndex = 20408//6;
+let lastIndex = 30000;
 
 for (let index = startIndex; index <= lastIndex; index++) {
     
@@ -29,13 +29,6 @@ for (let index = startIndex; index <= lastIndex; index++) {
         console.log('Hello World > helloworld.txt');
       });
 
-      fs.close(fileId, (err) => {
-        if (err)
-          console.error('Failed to close file', err);
-        else {
-          console.log("\n> File Closed successfully");
-        }
-      });
 
 }
 
