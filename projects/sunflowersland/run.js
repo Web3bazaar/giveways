@@ -15,7 +15,7 @@ let template =
 
 let fs = require('fs');
 
-let startIndex = 10204//6;
+let startIndex = 20403//6;
 let lastIndex = 50000;
 
 for (let index = startIndex; index <= lastIndex; index++) {
@@ -24,9 +24,17 @@ for (let index = startIndex; index <= lastIndex; index++) {
     data.id = index;
     data.name = data.name + index
     data.externalURL = data.externalURL + index
-    fs.writeFile(writePath + '/'+ index ,JSON.stringify(data), function (err) {
+    let fileId = fs.writeFile(writePath + '/'+ index ,JSON.stringify(data), function (err) {
         if (err) return console.log(err);
         console.log('Hello World > helloworld.txt');
+      });
+
+      fs.close(fileId, (err) => {
+        if (err)
+          console.error('Failed to close file', err);
+        else {
+          console.log("\n> File Closed successfully");
+        }
       });
 
 }
