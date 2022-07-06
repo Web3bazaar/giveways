@@ -7,7 +7,7 @@ import "../webazaar/BatchBazaarProd.sol";
 import "@openzeppelin/contracts/utils/Context.sol";
 
 
-contract BazaarRaffleTicket is Context, ERC721, MultiAccessControl, ERC721Holder  {
+contract BazaarRaffleTicketSFL is Context, ERC721, MultiAccessControl, ERC721Holder  {
 
     uint256 private _id;
     // Base URI
@@ -28,7 +28,7 @@ contract BazaarRaffleTicket is Context, ERC721, MultiAccessControl, ERC721Holder
     uint256 private SILVER_PRICE = 5000000000000000000;
     uint256 private GOLD_PRICE   = 10000000000000000000;
 
-    constructor() ERC721("Sun Flower Land Raflfe Ticket", "Sun Flower Land Rallfe Ticket") public 
+    constructor() ERC721("SunFlowerLand Raflfe Ticket", "SunFlowerLand Rallfe Ticket") public 
     {
         _id = 1 ;
         _contractURI = "https://raw.githubusercontent.com/Web3bazaar/giveways/main/projects/sunflowersland/contract";
@@ -66,7 +66,7 @@ contract BazaarRaffleTicket is Context, ERC721, MultiAccessControl, ERC721Holder
          uint8[]    memory creatorTokenType  = new uint8[](totalTickets);
 
          //check the allownces for project token
-        require(totalAmount <= IERC20(_projectTokenAddress).allowance(msg.sender, address(this) ), 'WEB3BAZAAR_RAFLLES_ERR: ALLOWANCE_ISNT_ENOUGH');
+        // require(totalAmount <= IERC20(_projectTokenAddress).allowance(msg.sender, address(this) ), 'WEB3BAZAAR_RAFLLES_ERR: ALLOWANCE_ISNT_ENOUGH');
         require(totalAmount <= IERC20(_projectTokenAddress).balanceOf(msg.sender), 'WEB3BAZAAR_RAFLLES_ERR: ERR_NOT_ENOUGH_FUNDS_ERC20');
 
         // mint ticket store on array to create trade after
@@ -126,34 +126,7 @@ contract BazaarRaffleTicket is Context, ERC721, MultiAccessControl, ERC721Holder
          IERC20(tokenAddress).transfer(msg.sender, amount);
     }
 
-    function test1(uint256 amount) public view returns(uint256){
-        return amount * 1 ether;
-    }
-
-    function test2(uint8 raffleType, uint8 quantity) public view  returns (uint256, uint256, uint256)
-    {
-         require(raffleType ==  BRONZE ||
-                    raffleType ==  SILVER || 
-                        raffleType ==  GOLD , 'WEB3BAZAAR_RAFLLES_ERR: RAFFLE TYPE ISNT VALID');
-        require(quantity > 0 &&  quantity < 1000, 'WEB3BAZAAR_RAFLLES_ERR: QUANTITY_RANGE_0_TO_1000');
-        
-         uint256 unityPrice = 0;
-         uint256 totalTickets = raffleType * quantity;
-
-         if(raffleType == BRONZE){
-             unityPrice = BRONZE_PRICE;
-         }else if(raffleType == SILVER){
-              unityPrice = SILVER_PRICE ;
-         }else if(raffleType == GOLD){
-            unityPrice = GOLD_PRICE ; 
-         }
-         require(unityPrice > 0 ,  'WEB3BAZAAR_RAFLLES_ERR: UNITY_PRICE_ISNT_GREATER_THEN_ZERO');
     
-         uint256 totalAmount = unityPrice * quantity;
-
-         return (totalTickets, unityPrice, totalAmount );
-    }
-
     //set price
     function setPriceByType(uint8 raffleType, uint256 newPrice) public returns (bool){
          if(raffleType == BRONZE){
