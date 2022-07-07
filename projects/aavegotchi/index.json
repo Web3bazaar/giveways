@@ -1,7 +1,7 @@
 {
     "name" : "Aavegotchi",
     "description" : "",
-    "bronze_image" : "",
-    "silver_image" : "",
-    "gold_image"   : ""
+    "bronze_image" : "https://raw.githubusercontent.com/Web3bazaar/giveways/main/projects/aavegotchi/assets/bronze-ticket-aavegotichi.png",
+    "silver_image" : "https://raw.githubusercontent.com/Web3bazaar/giveways/main/projects/aavegotchi/assets/silver-ticket-aavegotchi.png",
+    "gold_image"   : "https://raw.githubusercontent.com/Web3bazaar/giveways/main/projects/aavegotchi/assets/gold-ticket-aavegotchi.png"
 }

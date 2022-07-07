@@ -1,7 +1,7 @@
 {
     "name" : "Sun Flower Land - Project",
     "description" : "",
-    "bronze_image" : "",
-    "silver_image" : "",
-    "gold_image"   : ""
+    "bronze_image" :  "https://raw.githubusercontent.com/Web3bazaar/giveways/main/projects/sunflowersland/assets/bronze-ticket3-sfl.png",
+    "silver_image" :  "https://raw.githubusercontent.com/Web3bazaar/giveways/main/projects/sunflowersland/assets/silver-ticket3-sfl.png",
+    "gold_image"   : "https://raw.githubusercontent.com/Web3bazaar/giveways/main/projects/sunflowersland/assets/gold-ticket3-sfl.png"
 }
