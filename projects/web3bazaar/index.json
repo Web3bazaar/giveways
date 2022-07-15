@@ -1,13 +1,16 @@
 {
-    "name" : "Sun Flower Land - Project",
+    "name" : "Web3Bazaar ",
     "description" : "",
-    "erc20_token_address" : "0xd1f9c58e33933a993a3891f8acfe05a68e1afc05",
+
+    "erc20_token_address" : "",
     "erc20_token_decimals" : "18",
-    "bronze_price" : "1000000000000000000",
-    "silver_price" : "5000000000000000000",
-    "gold_price"   : "10000000000000000000",
+    "bronze_price" : "",
+    "silver_price" : "",
+    "gold_price"   : "",
     "network_id"   : "",
     "bronze_image" :  "https://raw.githubusercontent.com/Web3bazaar/giveways/main/projects/sunflowersland/assets/bronze-ticket3-sfl.png",
     "silver_image" :  "https://raw.githubusercontent.com/Web3bazaar/giveways/main/projects/sunflowersland/assets/silver-ticket3-sfl.png",
     "gold_image"   : "https://raw.githubusercontent.com/Web3bazaar/giveways/main/projects/sunflowersland/assets/gold-ticket3-sfl.png"
+
+
 }

@@ -10,8 +10,7 @@ let template =
     image: "https://raw.githubusercontent.com/Web3bazaar/giveways/main/projects/sunflowersland/assets/sfl-w3b-opensea.png"
  }
 
-
- let writePath = './data'
+let writePath = './data'
 
  const fs = require('graceful-fs');
 
