@@ -1,6 +1,12 @@
 {
     "name" : "Aavegotchi",
     "description" : "",
+    "erc20_token_address" : "",
+    "erc20_token_decimals" : "18",
+    "bronze_price" : "",
+    "silver_price" : "",
+    "gold_price"   : "",
+    "network_id"   : "",
     "bronze_image" : "https://raw.githubusercontent.com/Web3bazaar/giveways/main/projects/aavegotchi/assets/bronze-ticket-aavegotichi.png",
     "silver_image" : "https://raw.githubusercontent.com/Web3bazaar/giveways/main/projects/aavegotchi/assets/silver-ticket-aavegotchi.png",
     "gold_image"   : "https://raw.githubusercontent.com/Web3bazaar/giveways/main/projects/aavegotchi/assets/gold-ticket-aavegotchi.png"

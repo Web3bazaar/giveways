@@ -7,9 +7,9 @@ import "../webazaar/BatchBazaarProd.sol";
 import "@openzeppelin/contracts/utils/Context.sol";
 
 
-contract BazaarRaffleTicketSFL is Context, ERC721, MultiAccessControl, ERC721Holder  {
+contract BazaarRaffleTicket is Context, ERC721, MultiAccessControl, ERC721Holder  {
 
-    uint256 private _id;
+    uint256 public _id;
     // Base URI
     string private _baseURIextended;
     string private _contractURI;
@@ -24,11 +24,11 @@ contract BazaarRaffleTicketSFL is Context, ERC721, MultiAccessControl, ERC721Hol
     uint8 private GOLD   = 20;
 
     // rafles prices
-    uint256 private BRONZE_PRICE = 1000000000000000000;
-    uint256 private SILVER_PRICE = 5000000000000000000;
-    uint256 private GOLD_PRICE   = 10000000000000000000;
+    uint256 public BRONZE_PRICE = 1000000000000000000;
+    uint256 public SILVER_PRICE = 5000000000000000000;
+    uint256 public GOLD_PRICE   = 10000000000000000000;
 
-    constructor() ERC721("SunFlowerLand Raflfe Ticket", "SunFlowerLand Rallfe Ticket") public 
+    constructor() ERC721("Web3Bazaar Raffle Ticket", "Web3Bazaar Raffle Ticket") public 
     {
         _id = 1 ;
         _contractURI = "https://raw.githubusercontent.com/Web3bazaar/giveways/main/projects/sunflowersland/contract";
@@ -43,8 +43,8 @@ contract BazaarRaffleTicketSFL is Context, ERC721, MultiAccessControl, ERC721Hol
     {
          require(raffleType ==  BRONZE ||
                     raffleType ==  SILVER || 
-                        raffleType ==  GOLD , 'WEB3BAZAAR_RAFLLES_ERR: RAFFLE TYPE ISNT VALID');
-        require(quantity > 0 &&  quantity < 1000, 'WEB3BAZAAR_RAFLLES_ERR: QUANTITY_RANGE_0_TO_1000');
+                        raffleType ==  GOLD , 'WEB3BAZAAR_RAFFLE_ERR: RAFFLE TYPE ISNT VALID');
+        require(quantity > 0 &&  quantity < 1000, 'WEB3BAZAAR_RAFFLE_ERR: QUANTITY_RANGE_0_TO_1000');
         
          uint256 unityPrice = 0;
          uint256 totalTickets = raffleType * quantity;
@@ -56,7 +56,7 @@ contract BazaarRaffleTicketSFL is Context, ERC721, MultiAccessControl, ERC721Hol
          }else if(raffleType == GOLD){
             unityPrice = GOLD_PRICE ; 
          }
-         require(unityPrice > 0 ,  'WEB3BAZAAR_RAFLLES_ERR: UNITY_PRICE_ISNT_GREATER_THEN_ZERO');
+         require(unityPrice > 0 ,  'WEB3BAZAAR_RAFFLE_ERR: UNITY_PRICE_ISNT_GREATER_THEN_ZERO');
     
          uint256 totalAmount = unityPrice * quantity;
 
@@ -67,7 +67,7 @@ contract BazaarRaffleTicketSFL is Context, ERC721, MultiAccessControl, ERC721Hol
 
          //check the allownces for project token
         // require(totalAmount <= IERC20(_projectTokenAddress).allowance(msg.sender, address(this) ), 'WEB3BAZAAR_RAFLLES_ERR: ALLOWANCE_ISNT_ENOUGH');
-        require(totalAmount <= IERC20(_projectTokenAddress).balanceOf(msg.sender), 'WEB3BAZAAR_RAFLLES_ERR: ERR_NOT_ENOUGH_FUNDS_ERC20');
+        require(totalAmount <= IERC20(_projectTokenAddress).balanceOf(msg.sender), 'WEB3BAZAAR_RAFFLE_ERR: ERR_NOT_ENOUGH_FUNDS_ERC20');
 
         // mint ticket store on array to create trade after
         for (uint i = 0; i < totalTickets; i++) 
