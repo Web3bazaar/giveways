@@ -15,8 +15,8 @@ let template =
 
  const fs = require('graceful-fs');
 
-let startIndex = 15001;
-let lastIndex = 50000;
+let startIndex = 50001;
+let lastIndex =  75000;
 
 for (let index = startIndex; index <= lastIndex; index++) {
     
