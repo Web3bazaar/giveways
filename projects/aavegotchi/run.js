@@ -15,8 +15,8 @@ let template =
 
  const fs = require('graceful-fs');
 
-let startIndex = 11//6;
-let lastIndex = 15;
+let startIndex = 15001;
+let lastIndex = 50000;
 
 for (let index = startIndex; index <= lastIndex; index++) {
     
@@ -24,11 +24,8 @@ for (let index = startIndex; index <= lastIndex; index++) {
     data.id = index;
     data.name = data.name + index
     data.externalURL = data.externalURL + index
-    let fileId = fs.writeFile(writePath + '/'+ index ,JSON.stringify(data), function (err) {
-        if (err) return console.log(err);
-        console.log('index is #',index );
-      });
-
+    let fileId = fs.writeFileSync(writePath + '/'+ index ,JSON.stringify(data) )
+    console.log('index is #',index );
 
 }
 
