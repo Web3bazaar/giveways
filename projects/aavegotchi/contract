@@ -1,0 +1,10 @@
+{
+    "name":"Web3Bazaar giveways tickets for Aavegotchi",
+    "description":"Testnet giveaway raflle tickets - Aavegotchi",
+    "image":"https://www.aavegotchi.com/img/brand/sun.png",
+    "banner": "https://lh3.googleusercontent.com/ujPKyLdo41m89SlmeqIXQzF4JF6022-Aj00C3Cn61OblUhncisSRjCSrliC9vh3rDAoSC5QV_ygK4g9iDVOXnFYTiPMnPN5i6kAewQ=h600",
+    "banner_url":"https://www.aavegotchi.com/img/brand/sun.png",
+    "external_link":"https://www.aavegotchi.com/",
+    "seller_fee_basis_points":15,
+    "fee_recipient":"0xA7Cc2E2050A607c813437C1c074f82322Cc0C8aE"
+ }
