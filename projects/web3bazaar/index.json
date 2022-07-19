@@ -1,7 +1,7 @@
 {
     "name" : "Web3Bazaar ",
     "description" : "",
-
+    "giveawayEndDate":"2022-07-20T12:00:00Z",
     "erc20_token_address" : "",
     "erc20_token_decimals" : "18",
     "bronze_price" : "",
