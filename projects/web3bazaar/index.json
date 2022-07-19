@@ -1,16 +1,18 @@
 {
     "name" : "Web3Bazaar ",
+    "nameId" : "web3bazaar",
     "description" : "",
     "giveawayEndDate":"2022-07-20T12:00:00Z",
     "erc20_token_address" : "",
     "erc20_token_decimals" : "18",
-    "bronze_price" : "",
-    "silver_price" : "",
-    "gold_price"   : "",
-    "network_id"   : "",
-    "bronze_image" :  "https://raw.githubusercontent.com/Web3bazaar/giveways/main/projects/sunflowersland/assets/bronze-ticket3-sfl.png",
-    "silver_image" :  "https://raw.githubusercontent.com/Web3bazaar/giveways/main/projects/sunflowersland/assets/silver-ticket3-sfl.png",
-    "gold_image"   : "https://raw.githubusercontent.com/Web3bazaar/giveways/main/projects/sunflowersland/assets/gold-ticket3-sfl.png"
+    "priceMultipliers":[1,5,10],
+    "bronzePrice" : "",
+    "silverPrice" : "",
+    "goldPrice"   : "",
+    "chainId"   : "",
+    "bronzeImage" :  "https://raw.githubusercontent.com/Web3bazaar/giveways/main/projects/sunflowersland/assets/bronze-ticket3-sfl.png",
+    "silverImage" :  "https://raw.githubusercontent.com/Web3bazaar/giveways/main/projects/sunflowersland/assets/silver-ticket3-sfl.png",
+    "goldImage"   : "https://raw.githubusercontent.com/Web3bazaar/giveways/main/projects/sunflowersland/assets/gold-ticket3-sfl.png"
 
 
 }
