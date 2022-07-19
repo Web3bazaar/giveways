@@ -16,5 +16,6 @@
 	"ticketsImages": ["https://raw.githubusercontent.com/Web3bazaar/giveways/main/projects/sunflowersland/assets/bronze-ticket3-sfl.png",
 		"https://raw.githubusercontent.com/Web3bazaar/giveways/main/projects/sunflowersland/assets/silver-ticket3-sfl.png",
 		"https://raw.githubusercontent.com/Web3bazaar/giveways/main/projects/sunflowersland/assets/gold-ticket3-sfl.png"
-	]
+	],
+	"prizeImage": "https://raw.githubusercontent.com/Web3bazaar/raffle-tickets/main/projects/aavegotchi/assets/aavegotchi-w3b.png"
 }
