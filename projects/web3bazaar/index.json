@@ -3,7 +3,7 @@
 	"nameId": "web3bazaar",
 	"description": "",
 	"giveawayEndDate": "2022-08-20T12:00:00Z",
-	"raffleContractAddress" : "0xFa7Cc1F458eBeba7b54E3b867836c15A80BF0B94",
+	"raffleContractAddress" : "0xd82B00f3FA4eE3d1683746EcE93b8f9A1a799b76",
 	"erc20TokenAddress": "0x89A84dc58ABA7909818C471B2EbFBc94e6C96c41",
 	"erc20TokenDecimals": "18",
 	"ticketPrice": ["1000000000000000000", "5000000000000000000", "10000000000000000000"],
