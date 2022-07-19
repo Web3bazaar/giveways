@@ -11,9 +11,6 @@
 	"silverPrice": "",
 	"goldPrice": "",
 	"chainId": "80001",
-	"bronzeImage": "https://raw.githubusercontent.com/Web3bazaar/giveways/main/projects/sunflowersland/assets/bronze-ticket3-sfl.png",
-	"silverImage": "https://raw.githubusercontent.com/Web3bazaar/giveways/main/projects/sunflowersland/assets/silver-ticket3-sfl.png",
-	"goldImage": "https://raw.githubusercontent.com/Web3bazaar/giveways/main/projects/sunflowersland/assets/gold-ticket3-sfl.png",
 	"ticketsImages": ["https://raw.githubusercontent.com/Web3bazaar/giveways/main/projects/sunflowersland/assets/bronze-ticket3-sfl.png",
 		"https://raw.githubusercontent.com/Web3bazaar/giveways/main/projects/sunflowersland/assets/silver-ticket3-sfl.png",
 		"https://raw.githubusercontent.com/Web3bazaar/giveways/main/projects/sunflowersland/assets/gold-ticket3-sfl.png"
