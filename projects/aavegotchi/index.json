@@ -1,16 +1,18 @@
 {
-    "name" : "Aavegotchi",
+	"name": "Aavegotchi",
 	"nameId": "aavegotchi",
-    "description" : "",
+	"description": "",
 	"giveawayEndDate": "2022-08-20T12:00:00Z",
-    "raffleContractAddress" : "0x38956B1dC388592bbA4D373a7bCC029F7FE51d6b",
+	"raffleContractAddress": "0x38956B1dC388592bbA4D373a7bCC029F7FE51d6b",
 	"erc20TokenAddress": "0x89A84dc58ABA7909818C471B2EbFBc94e6C96c41",
-    "erc20TokenDecimals": "18",
+	"erc20TokenDecimals": "18",
 	"ticketPrice": ["1000000000000000000", "5000000000000000000", "10000000000000000000"],
 	"chainId": "80001",
-    "ticketsImages": ["https://raw.githubusercontent.com/Web3bazaar/giveways/main/projects/aavegotchi/assets/bronze-ticket-aavegotichi.png",
+	"ticketsImages": ["https://raw.githubusercontent.com/Web3bazaar/giveways/main/projects/aavegotchi/assets/bronze-ticket-aavegotichi.png",
 		"https://raw.githubusercontent.com/Web3bazaar/giveways/main/projects/aavegotchi/assets/silver-ticket-aavegotchi.png",
 		"https://raw.githubusercontent.com/Web3bazaar/giveways/main/projects/aavegotchi/assets/gold-ticket-aavegotchi.png"
 	],
-	"prizeImage": "https://raw.githubusercontent.com/Web3bazaar/raffle-tickets/main/projects/aavegotchi/assets/aavegotchi-w3b.png"
+	"raffleTicketImage": "https://raw.githubusercontent.com/Web3bazaar/raffle-tickets/main/projects/aavegotchi/assets/aavegotchi-w3b.png",
+	"prizesList": ["https://app.aavegotchi.com/images/items/8.svg", "https://app.aavegotchi.com/images/items/10.svg", "https://app.aavegotchi.com/images/items/12.svg", "https://app.aavegotchi.com/images/items/14.svg", "https://app.aavegotchi.com/images/items/16.svg"]
+
 }
