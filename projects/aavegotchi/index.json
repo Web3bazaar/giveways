@@ -5,6 +5,7 @@
 	"giveawayEndDate": "2022-08-20T12:00:00Z",
 	"raffleContractAddress": "0x38956B1dC388592bbA4D373a7bCC029F7FE51d6b",
 	"erc20TokenAddress": "0x89A84dc58ABA7909818C471B2EbFBc94e6C96c41",
+	"tokenImage" : "https://s2.coinmarketcap.com/static/img/coins/200x200/7046.png",
 	"erc20TokenDecimals": "18",
 	"ticketPrice": ["1000000000000000000", "5000000000000000000", "10000000000000000000"],
 	"chainId": "80001",
