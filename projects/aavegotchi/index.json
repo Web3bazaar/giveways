@@ -7,7 +7,7 @@
 	"erc20TokenAddress": "0x89A84dc58ABA7909818C471B2EbFBc94e6C96c41",
 	"tokenImage" : "https://s2.coinmarketcap.com/static/img/coins/200x200/7046.png",
 	"erc20TokenDecimals": "18",
-	"ticketPrice": ["1000000000000000000", "5000000000000000000", "10000000000000000000"],
+	"ticketPrice": ["500000000000000000", "2500000000000000000", "5000000000000000000"],
 	"chainId": "80001",
 	"ticketsImages": ["https://raw.githubusercontent.com/Web3bazaar/giveways/main/projects/aavegotchi/assets/bronze-ticket-aavegotichi.png",
 		"https://raw.githubusercontent.com/Web3bazaar/giveways/main/projects/aavegotchi/assets/silver-ticket-aavegotchi.png",
