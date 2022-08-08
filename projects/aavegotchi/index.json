@@ -5,7 +5,7 @@
 	"giveawayEndDate": "2022-08-20T12:00:00Z",
 	"raffleContractAddress": "0xF76656D311b8be898c609A992A7d22f653447F55",
 	"erc20TokenAddress": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
-	"tokenImage" : "https://s2.coinmarketcap.com/static/img/coins/200x200/7046.png",
+	"tokenImage": "https://s2.coinmarketcap.com/static/img/coins/200x200/7046.png",
 	"erc20TokenDecimals": "18",
 	"ticketPrice": ["500000000000000000", "2500000000000000000", "5000000000000000000"],
 	"chainId": "0x89",
@@ -15,6 +15,7 @@
 	],
 	"raffleTicketImage": "https://raw.githubusercontent.com/Web3bazaar/raffle-tickets/main/projects/aavegotchi/assets/aavegotchi-w3b.png",
 	"prizesList": ["https://app.aavegotchi.com/images/items/82.svg", "https://app.aavegotchi.com/images/items/213.svg", "https://app.aavegotchi.com/images/items/101.svg", "https://app.aavegotchi.com/images/installations/41.gif", "https://app.aavegotchi.com/images/installations/goldenAaltar.gif"],
-	"backgroundImage" : "https://cryptocdn.fra1.cdn.digitaloceanspaces.com/sites/8/1-hvdvynbNjWCcpppHv8nuuw.png"
+	"prizesURI": ["https://app.aavegotchi.com/metadata/items/82", "https://app.aavegotchi.com/metadata/items/213", "https://app.aavegotchi.com/metadata/items/101", "https://app.aavegotchi.com/metadata/installation/41", "https://app.aavegotchi.com/metadata/installation/1"],
+	"backgroundImage": "https://cryptocdn.fra1.cdn.digitaloceanspaces.com/sites/8/1-hvdvynbNjWCcpppHv8nuuw.png"
 
 }
