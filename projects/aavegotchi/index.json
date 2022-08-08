@@ -15,7 +15,7 @@
 	],
 	"raffleTicketImage": "https://raw.githubusercontent.com/Web3bazaar/raffle-tickets/main/projects/aavegotchi/assets/aavegotchi-w3b.png",
 	"prizesList": ["https://app.aavegotchi.com/images/items/82.svg", "https://app.aavegotchi.com/images/items/213.svg", "https://app.aavegotchi.com/images/items/101.svg", "https://app.aavegotchi.com/images/installations/41.gif", "https://app.aavegotchi.com/images/installations/goldenAaltar.gif"],
-	"prizesURI": ["https://app.aavegotchi.com/metadata/items/82", "https://app.aavegotchi.com/metadata/items/213", "https://app.aavegotchi.com/metadata/items/101", "https://app.aavegotchi.com/metadata/installation/41", "https://app.aavegotchi.com/metadata/installation/1"],
+	"prizesURI": ["https://app.aavegotchi.com/baazaar/erc1155/317403", "https://app.aavegotchi.com/baazaar/erc1155/321924", "https://app.aavegotchi.com/baazaar/erc1155/322027", "https://app.aavegotchi.com/baazaar/erc1155/321977", "https://app.aavegotchi.com/baazaar/erc1155/321831"],
 	"backgroundImage": "https://cryptocdn.fra1.cdn.digitaloceanspaces.com/sites/8/1-hvdvynbNjWCcpppHv8nuuw.png"
 
 }
