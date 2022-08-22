@@ -2,7 +2,7 @@
 	"name": "Aavegotchi",
 	"nameId": "aavegotchi",
 	"description": "",
-	"giveawayEndDate": "2022-08-23T15:00:00Z",
+	"giveawayEndDate": "2022-09-23T15:00:00Z",
 	"raffleContractAddress": "0xF76656D311b8be898c609A992A7d22f653447F55",
 	"erc20TokenAddress": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
 	"tokenImage": "https://s2.coinmarketcap.com/static/img/coins/200x200/7046.png",
