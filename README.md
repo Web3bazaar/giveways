@@ -3,7 +3,7 @@
 ## About
 
 The Raffle Ticket Protocol is a smart contract that lists NFT-based lotteries based on parameters preset by the creator. It as an open source tool that allows everyone to create their own lotteries with customizable supplies, ticket images and rewards.
-The contract is also connected to the Web3 Bazaar escrow smart contract, enabling a trustless P2P trade for ticket buyers and reward claimers.
+The contract is also connected to the [Web3 Bazaar](https://web3bazaar.org/) escrow smart contract, enabling a trustless P2P transaction for ticket buyers and reward claimers.
 
 ![image](https://user-images.githubusercontent.com/92461670/215763295-4690c657-586a-4c8f-a840-0a85e910b5d9.png)
 
